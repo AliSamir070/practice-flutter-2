@@ -20,6 +20,7 @@ class _ThirdScreenState extends State<ThirdScreen> {
   @override
   Widget build(BuildContext context) {
     print("Test tag");
+    print("Test tag2");
     return BlocProvider.value(
       value: widget.cubit,
       child: Scaffold(
