@@ -19,6 +19,7 @@ class _ThirdScreenState extends State<ThirdScreen> {
   var labels = RangeLabels("hhhh", "wwwww");
   @override
   Widget build(BuildContext context) {
+    print("Test tag");
     return BlocProvider.value(
       value: widget.cubit,
       child: Scaffold(
